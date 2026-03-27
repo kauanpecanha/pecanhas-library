@@ -39,6 +39,7 @@ Setup Virtualbox Minikube clustr
 minikube start --driver=virtualbox -p <name>
 ```
 
-Reference: [minikube virtualbox documentation](https://minikube.sigs.k8s.io/docs/drivers/virtualbox/)
+## Reference
+- [minikube virtualbox documentation](https://minikube.sigs.k8s.io/docs/drivers/virtualbox/)
 
 Made with ❤️ in 🇧🇷
