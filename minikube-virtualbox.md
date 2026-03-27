@@ -1,7 +1,7 @@
 # Configuring minikube with virtualbox driver
 by: [@kauanpecanha](https://github.com/kauanpecanha)
-Description: These instructions are intended to teach the process to install minikube and configure a virtualbox cluster.
 
+Description: These instructions are intended to teach the process to install minikube and configure a virtualbox cluster (in a way that it works, once that the official documentation might not work well).
 
 ## Specs
 OS: fedora 43
@@ -38,5 +38,7 @@ Setup Virtualbox Minikube clustr
 ```bash
 minikube start --driver=virtualbox -p <name>
 ```
+
+Reference: [minikube virtualbox documentation](https://minikube.sigs.k8s.io/docs/drivers/virtualbox/)
 
 Made with ❤️ in 🇧🇷
